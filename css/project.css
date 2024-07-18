@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Luckiest+Guy&family=Poppins:wght@100;400&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Luckiest+Guy&family=Poppins:wght@100;400&family=Rubik:wght@300&family=Sono:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Luckiest+Guy&family=Poppins:wght@100;400&family=Rubik:wght@300&family=Sono:wght@400;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+}
+body{
+  background-color: #000000;
+  color: white;
+  font-size: 20px;
+
+}
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color:rgb(255, 169, 169);
+  padding: 0 3px;  
+}
+.logo{
+  width: 80px;
+    
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 5px -0px;
+}
+nav ul li a{
+text-decoration: none;
+color: rgb(8, 8, 8);
+padding: 0px 3px;
+border: 7px solid transparent;
+text-transform: uppercase ;
+transition: 0.5 ease;
+text-decoration-style: solid;
+font-size: 12px;
+border-radius: 100px; 
+}
+nav ul li.active a{
+background-color: rgb(0, 0, 0);
+color: #e75f5f;
+}
+nav ul li a:hover{
+background-color:rgb(238, 105, 105);
+color: #000000; 
+}
+  
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #e75f5f;
+}
+
+.skills-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+}
+
+.skill {
+  position: relative;
+}
+
+.skill-title {
+  font-size: 15px;
+}
+
+.skill-bar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  height: 20px;
+  z-index: -1;
+  border-radius: 30px;
+  position: absolute;
+}
+
+.skill-fill {
+  background: rgb(204, 64, 134);
+  height: 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+  overflow: hidden;
+}
+.skills{
+  font-size: 25px;
+}
+  
+  .skill-percent {
+    font-size: 10px;
+  }
+  
+  .html {
+    animation: html 5s;
+    width: 90%;
+  }
+  nav .fa-solid{
+    display: none;
+}
+  
+  .css {
+    animation: css 5s;
+    width: 90%;
+  }
+  
+  .ps {
+    animation: ps 6s;
+    width: 90%;
+  }
+  .ejs {
+    animation: css 5s;
+    width: 90%;
+  }
+  
+  .js {
+    animation: ps 6s;
+    width: 90%;
+  }
+
+nav .fa-solid{
+  display: none;
+}
+
+
+.container .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap:15px;
+}
+
+.container .box-container .box{
+  box-shadow: 0 5px 10px rgba(12, 108, 163, 0.2);
+  border-radius: 5px;
+  background: #fdb2b2;
+  text-align: center;
+  padding:30px 10px;
+}
+
+.container .box-container .box img{
+  height: 90px;
+}
+
+.container .box-container .box h3{
+  padding:10px 0;
+}
+
+.container .box-container .box p{
+  line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+  margin-top: 10px;
+  display: inline-block;
+  background:#333;
+  color:#fff;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+
+#partners .btn:hover{
+  letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
+}
+p{
+  font-size: 10px;
+  color: #000000;
+text-align: center;
+}
+.link{
+  color: rgb(1, 22, 114);
+  text-decoration: underline;
+}
+  
+  @keyframes html {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
+  
+  @keyframes css {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
+  
+  @keyframes ps {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
+
+  @keyframes js {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
+  @keyframes ejs {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
+

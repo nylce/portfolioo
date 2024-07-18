@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Rubik:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Luckiest+Guy&family=Poppins:wght@100;400&family=Rubik:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Luckiest+Guy&family=Poppins:wght@100;400&family=Rubik:wght@300&family=Sono:wght@800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+}
+body{
+  background-color: #000000;
+  color: white;
+  font-size: 20px;
+
+}
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color:rgb(255, 169, 169);
+  padding: 0 3px;  
+}
+.logo{
+  width: 80px;
+    
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 5px -0px;
+}
+nav ul li a{
+text-decoration: none;
+color: rgb(8, 8, 8);
+padding: 0px 3px;
+border: 7px solid transparent;
+text-transform: uppercase ;
+transition: 0.5 ease;
+text-decoration-style: solid;
+font-size: 12px;
+border-radius: 100px; 
+}
+nav ul li.active a{
+background-color: rgb(0, 0, 0);
+color: #e75f5f;
+}
+nav ul li a:hover{
+background-color:rgb(238, 105, 105);
+color: #000000; 
+}
+#header-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  
+}
+h3{
+  font-size: 30px;
+  color: rgb(214, 192, 192);
+  margin-top: 5%;  
+  text-align: center;
+  margin-right: 500px;
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(230, 113, 113);
+  margin-top: -5px;
+  margin-bottom: -70px;
+  font-family: 'rubik';
+  
+}
+.btn.btn2{
+  background: #ff81a7;
+  margin-left: 45%;
+  color: #000000;
+  padding: 5px 12px;
+  font-size: 15px;
+}
+.hover :hover {
+  background-color: #ca2a60;
+  }
+
+.dynamic-txts {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.multiText {
+  text-align: center;
+  color: rgb(241, 122, 122);
+  font-family: 'Luckiest Guy';
+  font-size: 20px;
+}
+
+nav .fa-solid{
+  display: none;
+}

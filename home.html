@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJG PORTFOLIO</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="shortcut icon" href="files/logo1.png">
+    <script src="https://kit.fontawesome.com/c219cdd29e.js" crossorigin="anonymous"></script>
+</head>
+<style>
+ 
+</style>
+<body>
+    
+    <section id="home">
+        <div id="header">
+        <nav>
+            <img src="files/logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="exp.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li> 
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </section>
+
+        <div class="header-text">
+           <h3>Hi!</h3>
+           <h1> </br> I'm Nylce Joy Grejarte
+        </h1> 
+
+        <section class="text">
+               <br class="wrapper" >
+                <div class="static-txt"></div> 
+                <ul class="dynamic-txts"> </br> Aspiring <i class="fa-solid fa-code"></i></ul>
+                   <center><span class="multiText">Software Engineer</span></center> 
+               </div>
+            </section>
+        </br>
+               <div class="hover"><a href="njg.newcv.pdf" target="_blank" class="btn btn2">Resume</a></div> 
+               
+
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <script>
+    var typingEffect = new Typed(".multiText",{
+    strings : ["Software Engineer", "Full Stack Web Developer"],
+    loop : true,
+    typeSpeed : 100,
+    backSpeed : 100,
+    backDelay : 100})
+    </script>
+
+    <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+    </script>
+
+</body>
+</html>
